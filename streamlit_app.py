@@ -10,7 +10,7 @@ my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.co
 streamlit.dataframe(my_fruit_list)
 
 
-steamlit.multiselect( list(my_fruit_list.index(1)))
+steamlit.list(my_fruit_list[1]
 
 
 
