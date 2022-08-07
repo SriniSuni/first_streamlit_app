@@ -1,4 +1,6 @@
 import streamlit
 streamlit.title ("My Parents New Healthy Diner")
-X = "this is my first streamlit app"
-print(X)
+streamlit.header("Breakfast Menu")
+streamlit.text(" Oatmeal")
+streamlit.text("salads")
+Streamlit.text("Bread and Milk")
