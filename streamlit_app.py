@@ -1,4 +1,5 @@
 import streamlit
+import emojioze()
 streamlit.title ("My Parents New Healthy Diner")
 streamlit.header("Breakfast Menu")
 streamlit.text(" Oatmeal")
