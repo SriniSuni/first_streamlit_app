@@ -32,7 +32,7 @@ streamlit.write('The user entered ', fruit_choice)
 # Normalize json data 
 
 #display as a report
-streamlit.dataframe(fruityvice_normalized)
+
 streamlit.header('Fruityvice fruit advice!')
 try:
   fruit_choice = streamlit.text_input('what fruit would you like information about?')
